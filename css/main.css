@@ -1869,7 +1869,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1fa2;
+  background: #ff9360;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3200,8 +3200,16 @@ body {
   background: #fff;
   opacity: 0.8;
 }
+.menu .menu-item a {
+  display: no-repeat;
+  text-align: center;
+}
 .header-inner {
   opacity: 0.8;
+}
+.sidebar {
+  text-align: center;
+  font-size: 20px;
 }
 .post {
   margin-top: 0px;
@@ -3218,4 +3226,8 @@ body {
 }
 .site-meta {
   background: #0684bd;
+}
+@font-face {
+  font-family: Zitiming;
+  src: url("/fonts/Zitiming.ttf");
 }
